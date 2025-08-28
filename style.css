@@ -239,3 +239,19 @@
       font-size: 11px;
       color: gray;
     }
+
+
+
+/* 
+    responsive  */
+
+    @media only screen and (max-width: 650px) {
+        .history-item {
+      display: flex;
+      flex-direction: column;
+    }
+       .sidebar h3 {
+      font-size: 12px;
+    }
+  
+}
