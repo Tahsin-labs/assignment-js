@@ -31,6 +31,11 @@
     .img{
         height: 17px;
     }
+    .size{
+      width: 15px;
+     
+    }
+  
 
     .navbar-left h2 {
       color: #0b421b;
@@ -134,6 +139,7 @@
       font-size: 20px;
       cursor: pointer;
     }
+    
 
     .card h3 {
       margin: 10px 0 5px;
@@ -160,6 +166,7 @@
       border-radius: 12px;
       background: #f0f0f0;
       margin-bottom: 12px;
+      color: #5c5c5c;
     }
 
     .card-footer {
@@ -171,19 +178,21 @@
     .card-footer button {
       flex: 1;
       padding: 8px;
-      border: none;
       border-radius: 6px;
       cursor: pointer;
       font-size: 14px;
     }
 
     .btn-light {
-      background: #f5f5f5;
+      background-color: none;
+      border: 1px solid #5c5c5c5d;
+      
     }
 
     .btn-green {
       background: #2e7d32;
       color: #fff;
+      border: none;
     }
 
     /* Sidebar */
@@ -212,6 +221,7 @@
       border-radius: 12px;
       cursor: pointer;
       font-size: 12px;
+      margin-bottom: 9px;
     }
 
     .history-item {
@@ -223,6 +233,18 @@
       border-radius: 7px red;
       display: flex;
       justify-content: space-between;
+    }
+    .hisIcon{
+      display: flex;
+      justify-content: space-between;
+      
+    }
+    .flex{
+      display: flex;
+      gap: 5px;
+    }
+    .small{
+      height: 20px;
     }
 
     .history-item:last-child {
@@ -251,6 +273,15 @@
     }
        .sidebar h3 {
       font-size: 12px;
+    }
+     .clear-btn {
+      padding: 1px 5px;
+      width: 40px;
+      height: 23px;
+      font-size: 9px;
+    }
+        .sidebar h3 {
+      display: none;
     }
   
 }
